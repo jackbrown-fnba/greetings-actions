@@ -42,4 +42,4 @@ jobs:
           name: greetings-jar
       - shell: bash
         run: |
-          java -jar greetings-jar.jar ${{ github.event.inputs.myValues }}
+          java -jar greetings-jar.zip ${{ github.event.inputs.myValues }}
