@@ -15,7 +15,7 @@ on:
 
 jobs:
 
-  info:
+info:
     runs-on: ubuntu-latest
     
     steps:
